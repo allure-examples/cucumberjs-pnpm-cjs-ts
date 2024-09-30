@@ -1,0 +1,18 @@
+{
+  "name": "cucumberjs-pnpm-cjs-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require './features/**/*.ts'"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2",
+    "ts-node": "^10.9.2",
+    "@cucumber/cucumber": "^11.0.1",
+    "@cucumber/messages": "^26.0.1",
+    "allure-cucumberjs": "^3.0.3",
+    "allure-js-commons": "^3.0.3"
+  }
+}
